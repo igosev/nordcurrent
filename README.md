@@ -5,9 +5,7 @@
 * Phpunit 9.5
 * Php 8.1
 
-## Documentation
-
-### Installation
+### Installation and running
 
 Install by running:
 
@@ -24,7 +22,7 @@ composer dumpautoload -o
 ```
 
 ## Notes
-- Had to change folder names (used uppercase first letters) in ```src``` directory, because of thrown errors while using ```composer dumpautoload -o```.
+- Had to change folder names (used uppercase first letters) in ```src``` directory, because of thrown parsing errors while using ```composer dumpautoload -o```.
 - Implementation of task is in ```tests/ApiTest.php``` file.
 - For Test Case 4 had to add
     ```
